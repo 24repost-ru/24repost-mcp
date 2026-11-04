@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.24repost-ru/24repost-mcp",
+  "title": "24Repost",
+  "description": "Cross-posting between Telegram, MAX and VK: routes, copy rules, history import, chatbots.",
+  "websiteUrl": "https://24repost.ru/?ot=d_mcp",
+  "repository": {
+    "url": "https://github.com/24repost-ru/24repost-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://my.24repost.ru/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer access key from the 24Repost cabinet, section «Ключи доступа»: Bearer aibo_live_…",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
