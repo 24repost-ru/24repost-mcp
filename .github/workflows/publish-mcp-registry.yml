@@ -1,0 +1,24 @@
+# Публикация паспорта сервера (server.json) в официальном каталоге MCP.
+# Запуск вручную: Actions → «Publish to MCP Registry» → Run workflow.
+# Вход — по OIDC самого GitHub Actions: каталог видит, что задача идёт из
+# репозитория организации 24repost-ru, ключи и пароли не нужны.
+name: Publish to MCP Registry
+
+on:
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install mcp-publisher
+        run: curl -fsSL "https://github.com/modelcontextprotocol/registry/releases/download/v1.8.7/mcp-publisher_linux_amd64.tar.gz" | tar xz mcp-publisher
+      - name: Log in
+        run: ./mcp-publisher login github-oidc
+      - name: Publish
+        run: ./mcp-publisher publish
