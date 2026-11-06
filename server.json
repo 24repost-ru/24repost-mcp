@@ -4,11 +4,27 @@
   "title": "24Repost",
   "description": "Cross-posting between Telegram, MAX and VK: routes, copy rules, history import, chatbots.",
   "websiteUrl": "https://24repost.ru/?ot=d_mcp",
+  "icons": [
+    {
+      "src": "https://24repost.ru/assets/apple-touch-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "180x180"
+      ]
+    },
+    {
+      "src": "https://24repost.ru/assets/logo.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
   "repository": {
     "url": "https://github.com/24repost-ru/24repost-mcp",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "remotes": [
     {
       "type": "streamable-http",
