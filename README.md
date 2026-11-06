@@ -1,5 +1,7 @@
 # 24Репост — сервер MCP
 
+[![mcptry](https://mcptry.com/badge/io.github.24repost-ru/24repost-mcp)](https://mcptry.com/servers/io.github.24repost-ru/24repost-mcp)
+
 ![24Репост: сервер MCP для пересылки между Telegram, MAX и ВКонтакте](preview.png)
 
 [24Репост](https://24repost.ru/?ot=d_gh) пересылает посты между Telegram, MAX и ВКонтакте:
