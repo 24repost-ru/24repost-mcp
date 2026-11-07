@@ -2,6 +2,8 @@
 
 [![mcptry](https://mcptry.com/badge/io.github.24repost-ru/24repost-mcp)](https://mcptry.com/servers/io.github.24repost-ru/24repost-mcp)
 
+[![24Repost MCP server](https://mcprush.com/badge/24repost-mcp/card.svg)](https://mcprush.com/to/24repost-mcp?ref=badge)
+
 ![24Репост: сервер MCP для пересылки между Telegram, MAX и ВКонтакте](preview.png)
 
 [24Репост](https://24repost.ru/?ot=d_gh) пересылает посты между Telegram, MAX и ВКонтакте:
